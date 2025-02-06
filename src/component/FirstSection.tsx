@@ -1,4 +1,5 @@
 import React from "react";
+// import Hero from "./svg/Hero";
 
 const FirstSection: React.FC = () => {
   return (
@@ -14,7 +15,9 @@ const FirstSection: React.FC = () => {
           and opportunities across the startup ecosystem.
         </p>
       </div>
-      <div className="col-span-1"></div>
+      <div className="col-span-1">
+        {/* <Hero/> */}
+      </div>
     </div>
   );
 };
