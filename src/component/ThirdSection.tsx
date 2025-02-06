@@ -2,7 +2,7 @@ import React from 'react'
 
 const ThirdSection:React.FC = () => {
   return (
-    <div>ThirdSection</div>
+    <div className='min-h-screen flex justify-center items-center bg-slate-200'>ThirdSection</div>
   )
 }
 

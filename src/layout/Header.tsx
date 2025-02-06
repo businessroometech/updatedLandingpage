@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 const Header: React.FC = () => {
   return (
     <div className="bg-transparent
-    fixed flex flex-wrap justify-between items-center h-16 px-4 sm:px-6 md:px-12 lg:px-20 container mx-auto">
+    fixed flex flex-wrap justify-between items-center h-18 px-4 sm:px-6 md:px-12 lg:px-20 container mx-auto">
       {/* Logo */}
       <div>
         <img className="w-40 sm:w-48 md:w-60 h-auto" src={Logo} alt="Logo" />

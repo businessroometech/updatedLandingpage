@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const SecondSection:React.FC = () => {
+const SecondSection: React.FC = () => {
   return (
-    <div>SecondSection</div>
-  )
-}
+    <div className="min-h-screen bg-sky-100 flex items-center justify-center">
+      SecondSection
+    </div>
+  );
+};
 
-export default SecondSection
+export default SecondSection;
